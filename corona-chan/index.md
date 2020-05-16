@@ -2,10 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
-title: Nothing to see here.
+layout: page
+title: Chile -- Coronavirus
 ---
 
-Really, nothing
-
-2020-05-16T11:57:51.010213500
+- [Casos totales acumulados](Casos+totales+acumulados.html)
