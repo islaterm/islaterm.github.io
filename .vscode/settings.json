@@ -4,5 +4,13 @@
     "titleBar.activeBackground": "#294721",
     "titleBar.activeForeground": "#F7FBF6"
   },
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
 }
