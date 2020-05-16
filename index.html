@@ -1,7 +1,17 @@
---- layout: default ---
+--- 
+  layout: default 
+---
 
 <meta itemprop="headline name" content="{{ site.title }}">
-<link href="{{ page.url | replace:'index.html', '' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}" itemprop="url"> {% if paginator %} {% assign post_list = paginator.posts %} {% else %} {% assign post_list = site.posts %} {% endif %} {% for post in post_list %} {% assign p = p | plus: 1 %}
+<link 
+  href="{{ page.url | replace:'index.html', '' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}" itemprop="url"> 
+  {% if paginator %} 
+    {% assign post_list = paginator.posts %} 
+  {% else %} 
+    {% assign post_list = site.posts %} 
+  {% endif %} 
+    {% for post in post_list %} 
+      {% assign p = p | plus: 1 %}
 <div class="blog-post card mb-3" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="card-header">
         <h2 class="blog-post-title" itemprop="headline name">
