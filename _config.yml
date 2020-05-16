@@ -23,7 +23,7 @@ github_username:  islaterm
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
