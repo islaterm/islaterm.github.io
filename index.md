@@ -6,5 +6,4 @@ layout: page
 title: Nothing to see here.
 ---
 
-# Norhing to see here
 Really, nothing
