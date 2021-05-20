@@ -19,7 +19,7 @@ gem "activesupport", ">= 4.1.11"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "nokogiri", "~> 1.11.0.rc1"
+  gem "nokogiri", "~> 1.11.4"
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-sitemap', '~> 1.4.0'
   gem "github-pages", "~> 204", group: :jekyll_plugins
